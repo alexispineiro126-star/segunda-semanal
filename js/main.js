@@ -1,8 +1,10 @@
-let mes= prompt("Ingrese su mes de nacimiento").toLowerCase()
 
-let dia= prompt("ingrese su dia de nacimiento").toLowerCase()
 
 while(true){
+let mes= prompt("Ingrese su mes de nacimiento").toLowerCase()
+
+let dia= prompt("ingrese su dia de nacimiento")
+
 switch(mes){
     case "enero":
         if(dia <= 19){
