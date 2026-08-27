@@ -5,7 +5,7 @@ let mes= prompt("Ingrese su mes de nacimiento").toLowerCase()
 
 let dia= prompt("ingrese su dia de nacimiento")
 
-if(dia <1 || dia >30){
+if(dia <1 || dia >31){
     alert("Ingrese un dia de su nacimiento del 1 al 31")
     continue
 }
